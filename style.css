@@ -57,9 +57,9 @@ imput{
     background-color: #eee;
 }
 button {
-    font-size: 15px;
+    font-size: 12px;
       font-weight: bold;
-      padding: 12px 45px;
+      padding: 8px 50px;
       border-radius: 30px;
       background-color: #FF416C;
       border: 1px solid #FF416C;
@@ -75,7 +75,7 @@ button {
     width: 70hv;
     height: 80hv;
     text-align: center;
-    /*estas 3 linias se encargan de centrar el div verticla y horizontalmente*/
+    /*estas 3 linias se encargan de centrar el div vertical y horizontalmente*/
     position: absolute;
     inset: 0;
     margin: auto;

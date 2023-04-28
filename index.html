@@ -2,27 +2,23 @@
 <html>
   <head>
         <title>Calculadora de hidratacion</title>
-        <link rel="stylesheet" href="./style.css"/>
-  </head>
+        <link rel="stylesheet" href="./style.css"/> 
+         </head>
     <body>
-
         <div id="contenedor">
-
              <div id="calculadora">
-
                  <div class="contenido">
-                    <H1>Hidratacion vasal</H1>
-                    <input type="number" placeholder="peso en kg"/>
-                    <p>Debe ingresar todos los valores</p>
-                    <button>Calculadora</button>
-                    <p class="item resultado" id="flu" >71cc/h</p>
-                    <p class="item resultado" id="man"  >m+m/2 : 105cc/h</p>
+                    <H1>Hidratacion Basal</H1>
+                    <p class="item" id="error"> Ingresar peso en kilogramos </p>
+                    <button class="item" id="calcular">Calcular</button>
+                    <input class="item" id="peso" type="number" placeholder="peso en kg"/> 
+                    <p class="item resultado" id="flu" > 71cc/h </p>
+                    <p class="item resultado" id="man" > m+m/2 : 105cc/h </p>
                  </div> 
-
              </div>
              <div id="detalle">
                 <div class="contenido">
-                    <h2>¿Como se calcula?</h2>
+                    <h2>¿Cómo se calcula?</h2>
                     <ul>
                         <li>De 0kg a 10kg, se calcula 100cc por cada kilo.</li>
                         <li>Se suman 50cc por cada kilo de peso por arriba de 10kg, hasta 20kg</li>
@@ -31,5 +27,6 @@
                  </div>
              </div>
         </div>
+        <script src="./script.js" defer></script>
     </body>
 </html>
